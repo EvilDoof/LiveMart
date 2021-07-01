@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Buyers.OtpActivity">
+
+    <ImageView
+        android:id="@+id/otp_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        />
+
+    <EditText
+        android:id="@+id/login_otp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/input_design"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="#f47f4f"
+        android:textColorHint="#f47f4f"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login_otp_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_otp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="50dp"
+        android:padding="17dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/resend_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_otp_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="20dp"
+        android:padding="17dp"
+        android:text="Resend OTP"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</RelativeLayout>
